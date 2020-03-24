@@ -1,0 +1,1 @@
+a=[1 2 4 2 0];r=roots(a);sol=[]; for i=1:length(r)         if imag(r(i))==0 && 1-r(i)^2>=0              sol=[sol r(i)];         endenddisp('Solutiile ecuatiei algebrice:')format short g sol

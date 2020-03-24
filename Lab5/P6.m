@@ -1,0 +1,1 @@
+function [valsmin, valsmax, nrcond]=P6(A)  valsmin=[];valsmax=[];nrcond=[];  [m,p]=size(A);  if(m~=p)  disp('Matricea trebuie sa fie patratica')  return  end  val_sg=svd(A);  valsmin=min(val_sg)  valmax=max(val_sg)  nrcond=cond(A)  endfunction

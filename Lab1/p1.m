@@ -1,0 +1,1 @@
+clear, clcA=[2 3 0; -5 0 8];B=[4 -3 1; -1 0 5];ABdisp("A+B= "); A+Bdisp("A-B= "); A-Bdisp("A.*B= "); A.*Bdisp("A.^2= "); A.^2disp("A.\B= "); A.\Bdisp("A./B= "); A./Bdisp("A'= "); A'disp("A.'= "); A.'

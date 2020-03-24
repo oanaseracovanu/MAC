@@ -1,0 +1,1 @@
+clear,clcv=[2 -1 3];w=[0 3 -2];produs_scalar= dot(v,w)produs_vectorial=cross(v,w)unghi=acos(dot(v,w)/(norm(v)*norm(w)))

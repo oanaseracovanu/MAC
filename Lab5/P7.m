@@ -1,0 +1,1 @@
+A=[2 -3 0; -6 8 -1; 0 3 4];nrcond=rcond(A)A=[190 7; 2 200];nrcond=rcond(A)

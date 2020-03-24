@@ -1,0 +1,1 @@
+clear,clcA=[3 1 0 -2 -9; 0 -5 4 8 10; 6 6 1 -5 7; 11 -2 6 9 4; -8 0 0 0 1];Adisplay("Linia 3"); A(3,:)display("Ultima coloana"); A(:,end)display("Ultima linie"); A(end,:)display("Liniile 2-4, coloanele 1-3"); A(2:4,1:3)

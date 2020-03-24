@@ -1,0 +1,1 @@
+clear,clcfunction Matrice_2(A)  [n,p]=size(A);    if n~=p     disp('Matricea nu este patratica')    return  endif disp('Transpusa:'); A' disp("Rangul:"); rank(A) disp("Determinantul:"); det(A); disp("Inversa:"); inv(A);endfunction
