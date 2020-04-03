@@ -1,0 +1,1 @@
+function y=P2(x)y=exp(cos(x))-sin(x)-1;

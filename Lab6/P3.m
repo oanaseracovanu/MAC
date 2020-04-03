@@ -1,0 +1,1 @@
+clear,clcsyms x a b p;ec=2*b*cos(x)^2+2^a^sin(x)*cos(x)-p*sqrt(a^2+b^2)-b;ec=simplify(ec)syms t;ec=cos(t)*cos(2*x)+sin(t)*sin(2*x)-pec=simplify(ec)s=solve(ec,x);s=subs(s,t,atan(b/a))

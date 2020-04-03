@@ -1,0 +1,1 @@
+function y=P1c(x)y=2.^(-sin(x))+4-x.*log(x);

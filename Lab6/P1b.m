@@ -1,0 +1,1 @@
+clear,clcoptions=optimset('TolX',10.^(-6));[x,fval,flag,output]=fzero('P1b_f',-3,options);xiter=output.iterations

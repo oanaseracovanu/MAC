@@ -1,0 +1,1 @@
+clear,clcx=0:4*pi/100:4*pi;plot(x,exp(cos(x)),x,sin(x)+1)[x0,y0]=ginput(2);sol1=fzero('P2_f',x0(1))sol2=fzero('P2_f',x0(2))

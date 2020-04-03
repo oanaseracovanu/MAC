@@ -1,0 +1,1 @@
+function y=P1a(x) y=sin(x)+sqrt(abs(x))-x.^2+3; 
