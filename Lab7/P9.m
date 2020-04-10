@@ -1,0 +1,1 @@
+clear, clcv = [0.6, -0.2, -0.1];[xmin, fmin, exit, det] = fminsearch('P9_f', v);fprintf('Punctul de minim: [%g %f]', xmin);fprintf('Minimul: %g\n', fmin);fprintf('Metoda de optimizare: %s\n', det.algorithm);

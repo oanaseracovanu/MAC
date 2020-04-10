@@ -1,0 +1,1 @@
+clear,clcx0=0.5;[pmin,fmin]=fminsearch('P6_f',x0)

@@ -1,0 +1,1 @@
+clear,clctheta=0:pi/60:2*pi;r=2;xc=r*cos(theta);yc=r*sin(theta);xd=-2:5/100:3;yd=xd-1;plot(xc,yc,xd,yd)axis equal [xcord,ycord]=ginput(2);closedisp('Solutiile sistemului sunt: ')for i=1:length(xcord)  sol=fsolve('P2_f',[xcord(i) ycord(i)])end

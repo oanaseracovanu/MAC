@@ -1,0 +1,1 @@
+clear,clcfunction y=P6_f(x)  y=log(1-x+(x.^2)/3);

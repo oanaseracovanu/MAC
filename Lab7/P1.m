@@ -1,0 +1,1 @@
+clear,clcv0 = [1; 1];sol = fsolve('P1_f', v0);disp(sol);

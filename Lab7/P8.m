@@ -1,0 +1,1 @@
+clear, clcv = [1 0];opt = optimset('LargeScale', 'Off');[xmin, fmin, exit, det] = fminunc('P8_f', v, opt);fprintf('Punctul de minim: [%g %f]\n', xmin);fprintf('Minimul: %g\n', fmin);fprintf('Metoda de optimizare: %s\n', det.algorithm);
