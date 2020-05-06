@@ -1,0 +1,1 @@
+clear,clcy0=[0.5:-0.5:0.3]dom=[1:4];[xval,yval]=ode23('P3c_f',dom,y0)plot(xval,yval(:,1))

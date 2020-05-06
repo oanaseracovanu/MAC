@@ -1,0 +1,1 @@
+clear;clc;y0 = [-1,0]dom = [0,6];fprintf('\n')[xval,yval] = ode113('P3_f', dom, y0)fprintf('\n')plot(xval)plot(yval(:,0))clear;clc;y0 = [-1,1.5]dom = [0,6];fprintf('\n')[xval,yval] = ode113('P3_f', dom, y0)fprintf('\n')plot(xval)plot(yval(:,0))

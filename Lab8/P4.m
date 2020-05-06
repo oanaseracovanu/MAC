@@ -1,0 +1,1 @@
+function [vy_liniar, vy_cmmp3]=P3(x,y,vx)  vy_liniar=[];  vy_cmmp3[];  if length(x)~=length(y) disp('Vectorii trebuie sa aiba lungimi egale')return endvy_liniar=interp1(x,y,vx,'linear');p3=polyfit(x,y,3);vy_cmmp3=polyval(p3,vx);

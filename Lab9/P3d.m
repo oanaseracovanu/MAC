@@ -1,0 +1,1 @@
+clear;clc;x0 = 0;y0 = 0.2;z0 = -0.1;dom = [0, 3];fprintf('\n')[xval,yval] = ode45('ex3_d_functie', dom, x0, y0, z0);fprintf('\n')plot(xval, yval(:,1))

@@ -1,0 +1,1 @@
+function [a, b, c] = P5_f(m1, m2, m3, q1, q2, q3, J3, F1, F2, M3)t = 5;e = 2.71;m1 = 10;m2 = 4.15;m3 = 0.5;J3 = 0.015;fprintf('\n')F1(t) = -58.6*sin(2*t);fprintf('\n')F2(t) = 23.25*e.^-t*(sin(4*t)-3*cos(4*t))+45.601;fprintf('\n')M3(t)=0.004*t.^2;fprintf('\n')a = ((m1+m2+m3)*q1);b = ((m2+m3)*q2)+(m2*q1)+(m3*q1);c = M3*q3;end

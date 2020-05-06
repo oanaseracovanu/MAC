@@ -1,0 +1,1 @@
+clear,clctimp=0:6;viteza=[15 30 75 60 60 40 55];t=[0.5 3.2 5.7];vy_liniar=interp1(timp,viteza,t,'linear')vy_lagrange=P1(timp, viteza,t)vy_hermite= interpl(timp,viteza,t,'cubic')vy_spline=spline(timp,viteza,t)p2=polyfit(timp,viteza,2)vy_cmmp2=polyval(p2,t);p5=polyfit(timp,viteza,5)vy_cmmp5=polyval(p5,t)

@@ -1,0 +1,1 @@
+clear,clcy0=2;dom=[-1,5];[xval,yval]=ode23('P2_f',dom,y0)vxa=[-1 -0.5 0 1 2.3 5];vya=spline(xval,yval,vxa)

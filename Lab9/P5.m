@@ -1,0 +1,1 @@
+clear;clc;q1 = 0q2 = 1q3 = -0.5w1 = 2w2 = -1w3 = 0dom = [0,3]fprintf('\n')[xval,yval] = ode113('P5_f', dom, q1, q2, q3, w1, w2, w3)fprintf('\n')plot(xval, yval(:,1))

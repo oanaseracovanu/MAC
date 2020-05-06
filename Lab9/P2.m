@@ -1,0 +1,1 @@
+clear,clcI=quad('P2_f',pi/3,pi/2)

@@ -1,0 +1,1 @@
+function [f] = P5_f(x, y, vx)fprintf('\n')fprintf('Interpolarea Hermite cubic pe portiuni este:')fprintf('\n')cub = interp1(x,y,vx,'cubic')fprintf('\n')fprintf('Interpolarea spline este:')fprintf('\n')sp = spline(x,y,vx)fprintf('\n')plot(x, y, 'm', vx, cub, 'c', vx, sp, 'g--')legend('puncte', 'Hermite cubic', 'spline')end
